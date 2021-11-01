@@ -45,7 +45,7 @@ def get_long_description():
 
 
 setup(
-    name="gdown+",
+    name="gdownplus",
     version=version,
     packages=find_packages(exclude=["github2pypi"]),
     install_requires=[
