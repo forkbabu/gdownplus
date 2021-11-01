@@ -1,4 +1,4 @@
-from gdown.parse_url import parse_url
+from gdownplus.parse_url import parse_url
 import pytest
 
 

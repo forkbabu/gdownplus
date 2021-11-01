@@ -10,7 +10,7 @@ import six
 from .download import download
 from .download_folder import download_folder
 
-distribution = pkg_resources.get_distribution("gdown")
+distribution = pkg_resources.get_distribution("gdownplus")
 
 
 class _ShowVersionAction(argparse.Action):
@@ -21,7 +21,7 @@ class _ShowVersionAction(argparse.Action):
 
     def __call__(self, parser, namespace, values, option_string=None):
         print(
-            "gdown {ver} at {pos}".format(
+            "gdownplus {ver} at {pos}".format(
                 ver=self.version, pos=distribution.location
             )
         )
@@ -81,7 +81,7 @@ def main():
     parser.add_argument(
         "--no-cookies",
         action="store_true",
-        help="don't use cookies in ~/.cache/gdown/cookies.json",
+        help="don't use cookies in ~/.cache/gdownplus/cookies.json",
     )
     parser.add_argument(
         "--folder",

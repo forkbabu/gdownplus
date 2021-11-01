@@ -23,7 +23,7 @@ if sys.argv[1] == "release":
         "git tag v{:s}".format(version),
         "git push origin master --tag",
         "python setup.py sdist",
-        "twine upload dist/gdown-{:s}.tar.gz".format(version),
+        "twine upload dist/gdownplus-{:s}.tar.gz".format(version),
     ]
     for cmd in commands:
         subprocess.check_call(shlex.split(cmd))
@@ -38,14 +38,14 @@ def get_long_description():
         import github2pypi
 
         return github2pypi.replace_url(
-            slug="wkentaro/gdown", content=long_description
+            slug="wkentaro/gdownplus", content=long_description
         )
     except Exception:
         return long_description
 
 
 setup(
-    name="gdownplus",
+    name="gdownplusplus",
     version=version,
     packages=find_packages(exclude=["github2pypi"]),
     install_requires=[
@@ -57,7 +57,7 @@ setup(
         "pathlib2",
         "future",
     ],
-    description="gdown+ | gdown for big boys",
+    description="gdownplus | gdownplus for big boys",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Sayantan Das",
@@ -76,5 +76,5 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: Implementation :: CPython",
     ],
-    entry_points={"console_scripts": ["gdown=gdown.cli:main"]},
+    entry_points={"console_scripts": ["gdownplus=gdownplus.cli:main"]},
 )

@@ -194,7 +194,7 @@ def download_folder(
 
     Example
     -------
-    gdown.download_folder(
+    gdownplus.download_folder(
         "https://drive.google.com/drive/folders/" +
         "1ZXEhzbLRLU1giKKRJkjm8N04cO_JoYE2",
         use_cookies=True

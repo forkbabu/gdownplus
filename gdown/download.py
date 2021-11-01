@@ -88,7 +88,7 @@ def download(
     sess = requests.session()
 
     # Load cookies
-    cache_dir = osp.join(home, ".cache", "gdown")
+    cache_dir = osp.join(home, ".cache", "gdownplus")
     if not osp.exists(cache_dir):
         os.makedirs(cache_dir)
     cookies_file = osp.join(cache_dir, "cookies.json")
