@@ -6,6 +6,8 @@
   Download a large file from Google Drive.
 </h4>
 
+## [Try this demo](https://colab.research.google.com/drive/1NWsKbt2-TDrIaXz0ctJ5F1iN8sD8nwyf?usp=sharing)
+
 <div align="center">
   <a href="https://pypi.python.org/pypi/gdown"><img src="https://img.shields.io/pypi/v/gdown.svg"></a>
   <a href="https://pypi.org/project/gdown"><img src="https://img.shields.io/pypi/pyversions/gdown.svg"></a>
