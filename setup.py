@@ -45,7 +45,7 @@ def get_long_description():
 
 
 setup(
-    name="gdownplusplus",
+    name="gdownplus",
     version=version,
     packages=find_packages(exclude=["github2pypi"]),
     install_requires=[
@@ -57,7 +57,7 @@ setup(
         "pathlib2",
         "future",
     ],
-    description="gdownplus | gdownplus for big boys",
+    description="gdownplus | gdown for big boys",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Sayantan Das",

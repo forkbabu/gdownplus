@@ -1,5 +1,5 @@
 <h1 align="center">
-  gdown
+  gdownplus
 </h1>
 
 <h4 align="center">
@@ -30,7 +30,7 @@ the security warning from Google Drive.
 ## Installation
 
 ```bash
-pip install gdown
+pip install git+https://github.com/forkbabu/gdownplus.git@plus
 ```
 
 
