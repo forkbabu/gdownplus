@@ -9,12 +9,6 @@
 ## [Try this demo](https://colab.research.google.com/drive/1NWsKbt2-TDrIaXz0ctJ5F1iN8sD8nwyf?usp=sharing)
 
 <div align="center">
-  <a href="https://pypi.python.org/pypi/gdown"><img src="https://img.shields.io/pypi/v/gdown.svg"></a>
-  <a href="https://pypi.org/project/gdown"><img src="https://img.shields.io/pypi/pyversions/gdown.svg"></a>
-  <a href="https://github.com/wkentaro/gdown/actions"><img src="https://github.com/wkentaro/gdown/workflows/ci/badge.svg"></a>
-</div>
-
-<div align="center">
   <img src=".readme/cli.png" width="90%">
   <img src=".readme/python.png" width="90%">
 </div>
@@ -32,7 +26,7 @@ the security warning from Google Drive.
 ## Installation
 
 ```bash
-pip install git+https://github.com/forkbabu/gdownplus.git@plus
+pip install git+https://github.com/forkbabu/gdownplus.git
 ```
 
 
